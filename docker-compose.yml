@@ -13,7 +13,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./frontend:/usr/share/nginx/html:ro
+      - ./frontend/public:/usr/share/nginx/html:ro
     networks:
       - app-network
 
